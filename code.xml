@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<program>
+  <header>
+    <applicationBuildName></applicationBuildName>
+    <applicationBuildNumber>0</applicationBuildNumber>
+    <applicationBuildType>release</applicationBuildType>
+    <applicationName>NewCatroid</applicationName>
+    <applicationVersion>2.1.1b2</applicationVersion>
+    <catrobatLanguageVersion>1.17</catrobatLanguageVersion>
+    <customResolution>false</customResolution>
+    <dateTimeUpload></dateTimeUpload>
+    <description>привет это моя игра где ты можеж запустит только 1 вирус
+
+ВНИМАНИЕ ЛЮБЯМ С ЭПИЛЕПСИИЕЙ НЕ ЗАХОДИТЬ</description>
+    <deviceName>SM-A065F</deviceName>
+    <gitRemoteUrl></gitRemoteUrl>
+    <isCastProject>false</isCastProject>
+    <landscapeMode>true</landscapeMode>
+    <listeningLanguageTag></listeningLanguageTag>
+    <mediaLicense></mediaLicense>
+    <notesAndCredits></notesAndCredits>
+    <physicsHeightArea>2.0</physicsHeightArea>
+    <physicsWidthArea>3.0</physicsWidthArea>
+    <platform>Android</platform>
+    <platformVersion>36</platformVersion>
+    <programLicense></programLicense>
+    <programName>Cute.exe</programName>
+    <remixOf></remixOf>
+    <scenesEnabled>true</scenesEnabled>
+    <screenHeight>720</screenHeight>
+    <screenMode>STRETCH</screenMode>
+    <screenWidth>1467</screenWidth>
+    <tags></tags>
+    <url></url>
+    <userHandle></userHandle>
+  </header>
+  <settings/>
+  <scenes>
+    <scene sceneId="04351a23-9e08-4c33-855d-b7ecacc13959">
+      <name>Сцена</name>
+      <objectList>
+        <object type="Sprite" spriteId="f857d72e-6c4a-401b-bb54-00878f1deb0b" name="Фон">
+          <lookList>
+            <look fileName="1000067805.jpg" lookId="0a8277d6-7731-4bde-ac76-f3bd73d10dfc" name="1000067805">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="ChangeWidthBrick">
+                  <brickId>f6f137c1-fad8-4ffd-9280-a47735f06a2a</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>20</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>fd43c6d2-4013-44cd-b839-350eca0f226d</scriptId>
+            </script>
+            <script type="BroadcastScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="ForeverBrick">
+                  <brickId>0344867a-e4cb-4e7a-94fe-0a47318353d3</brickId>
+                  <commentedOut>false</commentedOut>
+                  <loopBricks>
+                    <brick type="ChangeWidthBrick">
+                      <brickId>f5fead0b-5b17-416d-9b8c-f8890b801f9f</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="SIZE">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>30</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                    <brick type="WaitBrick">
+                      <brickId>69b100ba-ad87-49c4-bda4-7f7bb0e734da</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="TIME_TO_WAIT_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>0.5</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                    <brick type="ChangeWidthBrick">
+                      <brickId>a9c904ab-be4c-425c-abff-2a207480cacc</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="SIZE">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>40</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                    <brick type="WaitBrick">
+                      <brickId>8cd5c696-f335-470d-99b9-e31391bdba01</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="TIME_TO_WAIT_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>0.5</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                    <brick type="ChangeWidthBrick">
+                      <brickId>075336cf-dd07-4dc6-b4ed-a0d3b6250d97</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="SIZE">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>50</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                    <brick type="WaitBrick">
+                      <brickId>27f74433-70b6-42a7-a572-35622c6b196d</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="TIME_TO_WAIT_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>0.5</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                    <brick type="ChangeWidthBrick">
+                      <brickId>0284bed2-bc83-41f6-b3d3-b780c3226fe8</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="SIZE">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>60</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                  </loopBricks>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>ee8bef95-78c3-46c3-8e92-38576db031e6</scriptId>
+              <receivedMessage>Сообщение (3)</receivedMessage>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object type="Sprite" spriteId="e78e3f2c-5050-4484-8ffe-d80e90209845" name="Мой актер или объект (1)">
+          <lookList>
+            <look fileName="Мой актер или объект_#0.png" lookId="2dc8d44b-a46c-47d4-8004-f7530639ad59" name="Мой актер или объект (1)">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList>
+            <sound fileName="94256.mp3" name="94256" soundId="ad1b3ba6-8bdd-4911-8859-fcda7eb002f9">
+              <midiFile>false</midiFile>
+            </sound>
+          </soundList>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="PlaceAtBrick">
+                  <brickId>d19b3693-eaed-4299-b0c8-544383d26829</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>231</value>
+                    </formula>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>674</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="PointInDirectionBrick">
+                  <brickId>aea1e0e0-f985-4b8f-8b7f-d5ff38fc6042</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="DEGREES">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>90.0</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="SetSizeToBrick">
+                  <brickId>48221bd9-3ac4-4a52-b06f-93a8867af776</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>40</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>2c3eceb4-79ff-43a9-9055-7d995d8bc8d2</scriptId>
+            </script>
+            <script type="WhenScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="PlaySoundBrick">
+                  <brickId>b84e5b08-1803-42d8-bb11-17a459ec68cf</brickId>
+                  <commentedOut>false</commentedOut>
+                  <sound reference="../../../../../soundList/sound"/>
+                </brick>
+                <brick type="BroadcastBrick">
+                  <brickId>974514e2-5b6b-419e-bd9c-b90477cb431c</brickId>
+                  <commentedOut>false</commentedOut>
+                  <broadcastMessage>Сообщение</broadcastMessage>
+                </brick>
+                <brick type="WaitBrick">
+                  <brickId>67ff5831-1bab-4fa7-8327-3780cf830d88</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIME_TO_WAIT_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>10</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="BroadcastBrick">
+                  <brickId>e59a7e72-d07d-43d5-8cba-a4f33dc02400</brickId>
+                  <commentedOut>false</commentedOut>
+                  <broadcastMessage>Сообщение (1)</broadcastMessage>
+                </brick>
+                <brick type="WaitBrick">
+                  <brickId>cd07d9cd-930a-4825-89fd-103168bc4649</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIME_TO_WAIT_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>10</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="BroadcastBrick">
+                  <brickId>b40c69c1-a017-4fee-8366-80cd4397dc8a</brickId>
+                  <commentedOut>false</commentedOut>
+                  <broadcastMessage>Сообщение (2)</broadcastMessage>
+                </brick>
+                <brick type="WaitBrick">
+                  <brickId>ede4f9d4-56ff-432a-9427-46dfeb60e431</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIME_TO_WAIT_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>10</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="BroadcastBrick">
+                  <brickId>f007f5ac-1796-4880-ac28-7a61fe7ee2b3</brickId>
+                  <commentedOut>false</commentedOut>
+                  <broadcastMessage>Сообщение (3)</broadcastMessage>
+                </brick>
+                <brick type="WaitBrick">
+                  <brickId>a9cd3e6b-06f4-480c-a4ae-af44d43ca5a3</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIME_TO_WAIT_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>10</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="BroadcastBrick">
+                  <brickId>c536de63-7f59-47b0-a608-a97f611bfb84</brickId>
+                  <commentedOut>false</commentedOut>
+                  <broadcastMessage>Сообщение (4)</broadcastMessage>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>664a4a6d-694d-46d1-8a5a-49787f0d42e1</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object type="Sprite" spriteId="ac34402a-4f50-4e05-b563-5c420e5c2571" name="Мой актер или объект (2)">
+          <lookList>
+            <look fileName="Мой актер или объект_#1.png" lookId="9d366626-52ee-478e-8dd5-a914e4a22e50" name="Мой актер или объект (2)">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="PlaceAtBrick">
+                  <brickId>c50eae99-c6e8-4862-bbf3-392960343e53</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>272</value>
+                    </formula>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>534</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="SetSizeToBrick">
+                  <brickId>424dc947-bae4-4b1b-9c2c-50b89a6fbdb9</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1000</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="HideBrick">
+                  <brickId>b4071894-c71c-46b7-a989-e52834d2afd0</brickId>
+                  <commentedOut>false</commentedOut>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>f9efbfd9-c540-495c-8b49-32d5c9db3972</scriptId>
+            </script>
+            <script type="BroadcastScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="ShowBrick">
+                  <brickId>929ed207-e821-4052-a09b-41921bba211b</brickId>
+                  <commentedOut>false</commentedOut>
+                </brick>
+                <brick type="PenUpBrick">
+                  <brickId>8580739e-474c-42e1-bf3a-8e2da8ef439d</brickId>
+                  <commentedOut>false</commentedOut>
+                </brick>
+                <brick type="SetPenColorBrick">
+                  <brickId>c3215281-7a35-4109-814e-2aeb99ee314f</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="PEN_COLOR_RED">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>235</value>
+                    </formula>
+                    <formula category="PEN_COLOR_BLUE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>24</value>
+                    </formula>
+                    <formula category="PEN_COLOR_GREEN">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>70</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="SetPenSizeBrick">
+                  <brickId>24c040ab-2420-4ebf-bf3f-9c513a5e11d1</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="PEN_SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>250</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="PenDownBrick">
+                  <brickId>4860f510-956a-492e-931d-0b0f9472f57a</brickId>
+                  <commentedOut>false</commentedOut>
+                </brick>
+                <brick type="StampBrick">
+                  <brickId>91792425-949c-4945-80b6-95bb5de70b57</brickId>
+                  <commentedOut>false</commentedOut>
+                </brick>
+                <brick type="ForeverBrick">
+                  <brickId>1b03799a-a3ea-49d2-b53b-14eec3f12a6c</brickId>
+                  <commentedOut>false</commentedOut>
+                  <loopBricks>
+                    <brick type="GlideToBrick">
+                      <brickId>16bfd71d-5c31-438e-944c-7a4e94e09162</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1.0</value>
+                        </formula>
+                        <formula category="Y_DESTINATION">
+                          <additionalChildren/>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>242</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>MINUS</value>
+                        </formula>
+                        <formula category="X_DESTINATION">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>485</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                    <brick type="GlideToBrick">
+                      <brickId>2024e541-e8bd-411f-b17a-2e4364982a44</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1.0</value>
+                        </formula>
+                        <formula category="Y_DESTINATION">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>262</value>
+                        </formula>
+                        <formula category="X_DESTINATION">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>412</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                    <brick type="GlideToBrick">
+                      <brickId>3cb7fe4a-7e4e-43ea-8071-9960316ac238</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1.0</value>
+                        </formula>
+                        <formula category="Y_DESTINATION">
+                          <additionalChildren/>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>324</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>MINUS</value>
+                        </formula>
+                        <formula category="X_DESTINATION">
+                          <additionalChildren/>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>573</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>MINUS</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                    <brick type="GlideToBrick">
+                      <brickId>f67abf16-7860-4b54-a054-ab0305372a51</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1.0</value>
+                        </formula>
+                        <formula category="Y_DESTINATION">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>307</value>
+                        </formula>
+                        <formula category="X_DESTINATION">
+                          <additionalChildren/>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>548</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>MINUS</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                  </loopBricks>
+                </brick>
+                <brick type="PointInDirectionBrick">
+                  <brickId>c72e044e-041e-4c60-85fb-c2b383c855cf</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="DEGREES">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>90.0</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="SetSizeToBrick">
+                  <brickId>1fa74b7d-7c7d-47f4-8ee0-7a0d1c1cbffc</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>100.0</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="WaitBrick">
+                  <brickId>172d4753-26e9-4684-a945-c549e96bf4d8</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIME_TO_WAIT_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>10</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>99e7ac95-fd00-4320-bf99-31d23ab75be5</scriptId>
+              <receivedMessage>Сообщение</receivedMessage>
+            </script>
+            <script type="BroadcastScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="HideBrick">
+                  <brickId>ae3ed899-e93d-46ed-b824-b811d391d4eb</brickId>
+                  <commentedOut>false</commentedOut>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>56b70cef-950e-4401-be4e-a14f989b00c7</scriptId>
+              <receivedMessage>Сообщение (1)</receivedMessage>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object type="Sprite" spriteId="776e87c2-e695-419f-8b82-21e3bc6ddcd3" name="Мой актер или объект (4)">
+          <lookList>
+            <look fileName="Мой актер или объект (4).png" lookId="a7bd8c82-3762-4814-9be8-832e468db427" name="Мой актер или объект (4)">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+            <look fileName="Мой актер или объект (4)_#0.png" lookId="cce45646-9517-42d7-9e4b-eea4f347c25a" name="Мой актер или объект (5)">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="PlaceAtBrick">
+                  <brickId>113919db-f08b-48af-a2fa-ddf6e1aac0a9</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>5</value>
+                    </formula>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="PointInDirectionBrick">
+                  <brickId>493fb73e-faf6-499c-8bf2-ef49c7dcca22</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="DEGREES">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>90.0</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="SetSizeToBrick">
+                  <brickId>58fd897f-1149-4d8b-9b30-bfb174ea8332</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>100.0</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="HideBrick">
+                  <brickId>2abd5f51-1df3-49a0-8194-ddab8457436c</brickId>
+                  <commentedOut>false</commentedOut>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>2b67370c-5f51-4a16-ab87-56c562363f83</scriptId>
+            </script>
+            <script type="BroadcastScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="ShowBrick">
+                  <brickId>dd0b1c04-daae-4d0e-b233-c502454db4bf</brickId>
+                  <commentedOut>false</commentedOut>
+                </brick>
+                <brick type="ForeverBrick">
+                  <brickId>c12399c1-fc6f-4a02-b12c-665f30297a97</brickId>
+                  <commentedOut>false</commentedOut>
+                  <loopBricks>
+                    <brick type="SetLookBrick">
+                      <brickId>2de621f8-f648-4ace-9520-46057d454845</brickId>
+                      <commentedOut>false</commentedOut>
+                      <look reference="../../../../../../../lookList/look[2]"/>
+                    </brick>
+                    <brick type="WaitBrick">
+                      <brickId>ee926798-34ac-4665-bffa-897fe0aad576</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="TIME_TO_WAIT_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>0.1</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                    <brick type="SetLookBrick">
+                      <brickId>5cd3b724-39e0-4703-9e27-77c89464614a</brickId>
+                      <commentedOut>false</commentedOut>
+                      <look reference="../../../../../../../lookList/look"/>
+                    </brick>
+                    <brick type="WaitBrick">
+                      <brickId>7e67f775-7cc7-402f-a485-9f8fe1010fd2</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="TIME_TO_WAIT_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>0.1</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                    <brick type="SetLookBrick">
+                      <brickId>c738b799-c99e-4742-86d9-944c5872fdb8</brickId>
+                      <commentedOut>false</commentedOut>
+                      <look reference="../../../../../../../lookList/look[2]"/>
+                    </brick>
+                  </loopBricks>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>7319fee2-a7b7-4d9a-9b07-6c7766edcdee</scriptId>
+              <receivedMessage>Сообщение (1)</receivedMessage>
+            </script>
+            <script type="BroadcastScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="HideBrick">
+                  <brickId>2b0aa94d-db16-496c-a039-7c9f01e8a4b8</brickId>
+                  <commentedOut>false</commentedOut>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>51dfe8d1-0707-4ba5-b66e-67c7a8c0393d</scriptId>
+              <receivedMessage>Сообщение (2)</receivedMessage>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object type="Sprite" spriteId="07c5a784-1e91-4be1-bcbc-6b86a02bb821" name="Мой актер или объект">
+          <lookList>
+            <look fileName="Мой актер или объект.png" lookId="7b7a8528-ffe9-448b-978b-72f7620f28aa" name="Мой актер или объект">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="PlaceAtBrick">
+                  <brickId>358f096b-55c1-4693-924f-cbe130e583f9</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>62</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>414</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="SetSizeToBrick">
+                  <brickId>af786377-557d-4891-ad86-d23d6f5faaf6</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>15</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="ForeverBrick">
+                  <brickId>0b720843-02b4-47aa-a2c5-135ec8479399</brickId>
+                  <commentedOut>false</commentedOut>
+                  <loopBricks>
+                    <brick type="GoToBrick">
+                      <brickId>50be6836-8b15-48ce-8ca0-78a52554060e</brickId>
+                      <commentedOut>false</commentedOut>
+                      <spinnerSelection>80</spinnerSelection>
+                    </brick>
+                  </loopBricks>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>b0535dcb-6a5d-47d5-9b51-9907c2fca6fe</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object type="Sprite" spriteId="1080f76f-1277-4723-b8c9-07d6380df1e7" name="Мой актер или объект (5)">
+          <lookList>
+            <look fileName="Мой актер или объект_#3.png" lookId="fe1717a1-550b-4020-a69c-37aa7afc29e7" name="Мой актер или объект (2)">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="PlaceAtBrick">
+                  <brickId>c445a79d-df04-46ca-bf6a-77dad230d2a7</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>272</value>
+                    </formula>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>534</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="SetSizeToBrick">
+                  <brickId>8e1d3d44-7a17-4371-b987-da7a27c5ba76</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1000</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="HideBrick">
+                  <brickId>2a17e492-b1a4-4568-91d8-b0a65c8c053c</brickId>
+                  <commentedOut>false</commentedOut>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>22a3b2f9-4981-4925-80af-59d3c7729422</scriptId>
+            </script>
+            <script type="BroadcastScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="ShowBrick">
+                  <brickId>bbfc7329-23dd-42e5-92ea-1d5b58b861fc</brickId>
+                  <commentedOut>false</commentedOut>
+                </brick>
+                <brick type="PenUpBrick">
+                  <brickId>321e29b7-cc08-4fd5-b606-c5f2a93caaf2</brickId>
+                  <commentedOut>false</commentedOut>
+                </brick>
+                <brick type="SetPenColorBrick">
+                  <brickId>698b799d-7154-459f-ae84-e0c4d1caa1cf</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="PEN_COLOR_RED">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="PEN_COLOR_BLUE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="PEN_COLOR_GREEN">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>255</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="SetPenSizeBrick">
+                  <brickId>5d27a3c9-dcc1-42d9-945a-aa358f0fcad7</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="PEN_SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>250</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="PenDownBrick">
+                  <brickId>996c9627-4144-4c11-b945-8d521850ce5d</brickId>
+                  <commentedOut>false</commentedOut>
+                </brick>
+                <brick type="StampBrick">
+                  <brickId>4ac4aa42-7029-4c2b-8871-995bbd5ec019</brickId>
+                  <commentedOut>false</commentedOut>
+                </brick>
+                <brick type="ForeverBrick">
+                  <brickId>4e471498-f2f4-4229-a68f-6e1f871d7452</brickId>
+                  <commentedOut>false</commentedOut>
+                  <loopBricks>
+                    <brick type="GlideToBrick">
+                      <brickId>5f77dd3f-e1a2-4e2c-8513-593a953593e4</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1.0</value>
+                        </formula>
+                        <formula category="Y_DESTINATION">
+                          <additionalChildren/>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>242</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>MINUS</value>
+                        </formula>
+                        <formula category="X_DESTINATION">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>485</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                    <brick type="GlideToBrick">
+                      <brickId>ce791871-e055-4608-b418-cb7faa413a26</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1.0</value>
+                        </formula>
+                        <formula category="Y_DESTINATION">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>262</value>
+                        </formula>
+                        <formula category="X_DESTINATION">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>412</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                    <brick type="GlideToBrick">
+                      <brickId>694a452d-d9af-4dc0-bce0-61a2c4eca943</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1.0</value>
+                        </formula>
+                        <formula category="Y_DESTINATION">
+                          <additionalChildren/>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>324</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>MINUS</value>
+                        </formula>
+                        <formula category="X_DESTINATION">
+                          <additionalChildren/>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>573</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>MINUS</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                    <brick type="GlideToBrick">
+                      <brickId>1995bc5f-c3a2-474d-9af0-f6029d626c8d</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1.0</value>
+                        </formula>
+                        <formula category="Y_DESTINATION">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>307</value>
+                        </formula>
+                        <formula category="X_DESTINATION">
+                          <additionalChildren/>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>548</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>MINUS</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                  </loopBricks>
+                </brick>
+                <brick type="PointInDirectionBrick">
+                  <brickId>58232109-4538-4a31-aadc-7c05f42544a0</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="DEGREES">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>90.0</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="SetSizeToBrick">
+                  <brickId>bbedabe4-14e2-4493-b4c8-31dc213f795f</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>100.0</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="WaitBrick">
+                  <brickId>eada9bfc-6758-4312-a628-777840420c29</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIME_TO_WAIT_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>10</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>569c93c8-bb82-4565-a6b0-9f653371186d</scriptId>
+              <receivedMessage>Сообщение (2)</receivedMessage>
+            </script>
+            <script type="BroadcastScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="HideBrick">
+                  <brickId>1e4a2647-190c-459e-82e0-c0b4454e24cc</brickId>
+                  <commentedOut>false</commentedOut>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>8ed7ed17-fe9b-4bdf-8d80-79a35208ef95</scriptId>
+              <receivedMessage>Сообщение (3)</receivedMessage>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object type="Sprite" spriteId="e742c053-c608-44dd-902c-a4511b84f85c" name="Мой актер или объект (3)">
+          <lookList>
+            <look fileName="Мой актер или объект_#2.png" lookId="9297582b-144a-463e-824a-2ed9a984571c" name="Мой актер или объект (3)">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="PlaceAtBrick">
+                  <brickId>c34184e4-849a-46f5-a3a1-f747c697c515</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>237</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>609</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>97dd3f52-eb1d-4f46-87e6-207acf38e909</scriptId>
+            </script>
+            <script type="WhenScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="ClearBackgroundBrick">
+                  <brickId>982a57b3-e516-4fbd-b3ef-125b584f6a2d</brickId>
+                  <commentedOut>false</commentedOut>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>b2605866-3859-4584-8de8-2a248439f39d</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object type="Sprite" spriteId="2835f0a6-72a4-49f6-b786-a29538c6c509" name="b997eb55-9621-4505-8ae5-a6be007c9722-1_all_8363">
+          <lookList>
+            <look fileName="b997eb55-9621-4505-8ae5-a6be007c9722-1_all_8363.jpg" lookId="9c564f78-a619-412d-bf60-9476c1ab7375" name="b997eb55-9621-4505-8ae5-a6be007c9722-1_all_8363">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="PlaceAtBrick">
+                  <brickId>c9210bae-3b03-48d5-8011-ddbff4244871</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>3</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>277</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="SetSizeToBrick">
+                  <brickId>67882762-9d8a-49c1-828e-5d9aa22eaf60</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>30</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="HideBrick">
+                  <brickId>aae82383-903d-4933-be92-cdbb869c56a4</brickId>
+                  <commentedOut>false</commentedOut>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>c8f81359-ac99-4ee0-b3dd-51e3d3fc8479</scriptId>
+            </script>
+            <script type="BroadcastScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="ShowBrick">
+                  <brickId>83570714-f49a-432b-b7e1-f3151bfceec9</brickId>
+                  <commentedOut>false</commentedOut>
+                </brick>
+                <brick type="ForeverBrick">
+                  <brickId>4f07d05d-3111-40b5-912e-52ce055c1640</brickId>
+                  <commentedOut>false</commentedOut>
+                  <loopBricks>
+                    <brick type="PenUpBrick">
+                      <brickId>309d1873-d725-4758-8ac4-17a7e55d9a3a</brickId>
+                      <commentedOut>false</commentedOut>
+                    </brick>
+                    <brick type="StampBrick">
+                      <brickId>1a2c2f7b-ec43-471a-a52f-15e70cfbcade</brickId>
+                      <commentedOut>false</commentedOut>
+                    </brick>
+                    <brick type="GoToBrick">
+                      <brickId>a8b18839-b079-4c6f-beb5-1fb33fb55400</brickId>
+                      <commentedOut>false</commentedOut>
+                      <destinationSprite reference="../../../../../../../../object[7]"/>
+                      <spinnerSelection>81</spinnerSelection>
+                    </brick>
+                  </loopBricks>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>5340cd05-dfc4-4f7f-b83c-d1246ac4246b</scriptId>
+              <receivedMessage>Сообщение (4)</receivedMessage>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+      </objectList>
+    </scene>
+  </scenes>
+  <programVariableList/>
+  <programListOfLists/>
+  <programMultiplayerVariableList/>
+</program>
